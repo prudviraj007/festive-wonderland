@@ -1,0 +1,7 @@
+{
+  "name": "Festive Wonderland: Holiday Holodeck",
+  "description": "An interactive 3D Christmas experience featuring hand-tracking controls, multiple themes including a Coca-Cola inspired mode, and particle-based shape morphing.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
