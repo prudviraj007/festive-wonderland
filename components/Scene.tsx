@@ -11,7 +11,7 @@ import { TreeTopper } from './TreeTopper';
 const SceneContent: React.FC<AppState> = (props) => {
   const groupRef = useRef<THREE.Group>(null);
   
-  useFrame((state) => {
+  useFrame(() => {
     if (!groupRef.current) return;
     
     // Hand Control interaction

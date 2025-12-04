@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { AppState, ShapeType } from '../types';
-import { Hand, Eye, Zap, Lock, Activity, Camera } from 'lucide-react';
+import { Hand, Zap, Lock, Activity, Camera } from 'lucide-react';
 import clsx from 'clsx';
 
 interface ControlPanelProps extends AppState {}

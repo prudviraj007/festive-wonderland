@@ -1,5 +1,3 @@
-import React from 'react';
-
 // Define the Three.js elements used in JSX
 // This ensures that TypeScript recognizes these elements as valid JSX intrinsics
 interface ThreeElementsImpl {

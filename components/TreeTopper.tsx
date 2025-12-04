@@ -92,7 +92,7 @@ export const TreeTopper: React.FC<{ shape: ShapeType; formed: boolean }> = ({ sh
 
 const GyroRing: React.FC<{ speed: number; radius: number; axis?: 'x'|'y'|'z' }> = ({ speed, radius, axis = 'y' }) => {
   const meshRef = useRef<THREE.Mesh>(null);
-  useFrame((state) => {
+  useFrame(() => {
     if (meshRef.current) {
        meshRef.current.rotation[axis === 'x' ? 'y' : 'x'] += speed * 0.02;
        meshRef.current.rotation.z += speed * 0.01;
